@@ -29,6 +29,9 @@ getting changed:
 const PI = 3.141592653589793
 PI = 42 // SyntaxError: "PI" is read-only
 
+Primitives are values that have no properties. In JavaScript there are 5 primitive types: 
+undefined , null , boolean , string and number
+
 Note that if the constant is an object, we can still change the properties of that object, so be careful about that:
 
 const dessert = { type: 'pie' };
